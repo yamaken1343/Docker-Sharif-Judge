@@ -2,17 +2,19 @@
 
 ## How to Use
 ```
-# 1. clone
+# 1. Clone
 git clone https://github.com/metaVariable/Docker-Sharif-Judge.git
 cd Docker-Sharif-Judge
 
-# 2. compose
+# 2. Compose
 docker-compose up -d
 
-# 3. confirm in browser
+# 3. Access
 curl http://localhost:80
+# ... or visit to URL using your own browser.
 
-# exit
+
+# 4. Exit
 docker-compose down
 ```
 
