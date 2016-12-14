@@ -1,3 +1,26 @@
+# Docker-Sharif-Judge
+
+## How to Use
+```
+# 1. clone
+git clone https://github.com/metaVariable/Docker-Sharif-Judge.git
+cd Docker-Sharif-Judge
+
+# 2. compose
+docker-compose up -d
+
+# 3. confirm in browser
+curl http://localhost:80
+
+# exit
+docker-compose down
+```
+
+The following from here is the original README.
+> https://github.com/mjnaderi/Sharif-Judge
+
+----
+
 # Sharif Judge
 
 [Sharif Judge](https://github.com/mjnaderi/Sharif-Judge) is a free and open source online judge for C, C++, Java and
