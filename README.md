@@ -18,6 +18,12 @@ curl http://localhost:80
 docker-compose down
 ```
 
+## References
+* https://hub.docker.com/r/liuyang1204/docker-sharif-judge/
+* https://github.com/mjnaderi/Sharif-Judge
+
+----
+
 The following from here is the original README.
 > https://github.com/mjnaderi/Sharif-Judge
 
