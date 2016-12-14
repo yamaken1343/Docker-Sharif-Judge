@@ -10,12 +10,10 @@ cd Docker-Sharif-Judge
 docker-compose up -d
 
 # 3. Access
-curl http://localhost:80
-# ... or visit to URL using your own browser.
-
+# Visit to http://localhost:80 using your own browser.
 
 # 4. Exit
-docker-compose down
+docker-compose down  # or, docker-compose kill
 ```
 
 ## References
