@@ -22,10 +22,9 @@ docker-compose down
 * https://github.com/mjnaderi/Sharif-Judge
 * https://hub.docker.com/r/liuyang1204/docker-sharif-judge/
 
-----
 
-The following from here is the original README.
-> https://github.com/mjnaderi/Sharif-Judge
+The following from here is the original README.  
+https://github.com/mjnaderi/Sharif-Judge
 
 ----
 
