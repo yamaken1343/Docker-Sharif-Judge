@@ -19,8 +19,8 @@ docker-compose down
 ```
 
 ## References
-* https://hub.docker.com/r/liuyang1204/docker-sharif-judge/
 * https://github.com/mjnaderi/Sharif-Judge
+* https://hub.docker.com/r/liuyang1204/docker-sharif-judge/
 
 ----
 
