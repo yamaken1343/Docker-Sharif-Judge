@@ -24,7 +24,7 @@ docker-compose down  # or, docker-compose kill
 ## References
 * https://github.com/mjnaderi/Sharif-Judge
 * https://hub.docker.com/r/liuyang1204/docker-sharif-judge/
-* (JP) http://qiita.com/metaVariable/items/9a9923b279c52823ccca
+* (Qiita, JP) http://qiita.com/metaVariable/items/9a9923b279c52823ccca
 
 
 The following from here is the original README.  
