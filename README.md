@@ -1,5 +1,10 @@
 # Docker-Sharif-Judge
 
+## Requirements
+
+* Docker (https://docs.docker.com/engine/installation/)
+* docker-compose (https://docs.docker.com/engine/installation/linux/centos/)
+
 ## How to Use
 ```
 # 1. Clone
@@ -19,6 +24,7 @@ docker-compose down  # or, docker-compose kill
 ## References
 * https://github.com/mjnaderi/Sharif-Judge
 * https://hub.docker.com/r/liuyang1204/docker-sharif-judge/
+* (JP) http://qiita.com/metaVariable/items/9a9923b279c52823ccca
 
 
 The following from here is the original README.  
