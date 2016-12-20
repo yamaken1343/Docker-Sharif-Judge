@@ -42,6 +42,6 @@ ENV DB_PASS postgres
 ENV DB_NAME oj
 
 EXPOSE 80
-CMD ["apache2-foreground"]
+ENTRYPOINT ["apache2-foreground"]
 
 
