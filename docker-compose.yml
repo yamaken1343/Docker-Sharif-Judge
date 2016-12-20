@@ -1,6 +1,7 @@
 ## app
 app:
-  build: .
+  image: liuyang1204/docker-sharif-judge
+  #build: .
   environment:
     DB_DRIVER: postgre
     DB_HOST: postgres
