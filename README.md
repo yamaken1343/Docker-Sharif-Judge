@@ -2,8 +2,8 @@
 
 ## Requirements
 
-* Docker (https://docs.docker.com/engine/installation/)
-* docker-compose (https://docs.docker.com/engine/installation/linux/centos/)
+* Docker : https://docs.docker.com/engine/installation/
+* docker-compose : https://docs.docker.com/engine/installation/linux/centos/
 
 ## How to Use
 ```
@@ -22,8 +22,8 @@ docker-compose down  # or, docker-compose kill
 ```
 
 ## References
-* https://github.com/mjnaderi/Sharif-Judge
-* https://hub.docker.com/r/liuyang1204/docker-sharif-judge/
+* Original: https://github.com/mjnaderi/Sharif-Judge
+* Docker-image: https://hub.docker.com/r/liuyang1204/docker-sharif-judge/
 * (Qiita, JP) http://qiita.com/metaVariable/items/9a9923b279c52823ccca
 
 
