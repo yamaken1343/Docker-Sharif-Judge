@@ -1,7 +1,6 @@
 ## app
 app:
   image: liuyang1204/docker-sharif-judge
-  #build: .
   environment:
     DB_DRIVER: postgre
     DB_HOST: postgres
@@ -12,6 +11,8 @@ app:
     - "80:80"
   links:
     - postgres:postgres
+  volumes:
+    - /data/assignments:/data/assignments
   container_name: sharif-judge
 
 ## DB
@@ -31,6 +32,6 @@ postgres:
 postgres-data:
   image: busybox
   volumes:
-      - /var/lib/postgresql/data
+      - dsjpgdata:/var/lib/postgresql/data
   container_name: postgres-datastore
 

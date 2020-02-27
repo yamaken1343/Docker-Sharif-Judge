@@ -1,30 +1,41 @@
 # Docker-Sharif-Judge
 
+## Improvements from metaVariable
+Even if you execute docker-compose down, data (problem, submission, DB, etc.) does not disappear.
 ## Requirements
 
-* Docker : https://docs.docker.com/engine/installation/
-* docker-compose : https://docs.docker.com/engine/installation/linux/centos/
+* Docker : https://docs.docker.com/install/
+* docker-compose : https://docs.docker.com/compose/install/
 
 ## How to Use
 ```
 # 1. Clone
-git clone https://github.com/metaVariable/Docker-Sharif-Judge.git
+git clone https://github.com/yamaken1343/Docker-Sharif-Judge.git
 cd Docker-Sharif-Judge
 
-# 2. Compose
+# 2. make directry
+mkdir /data/assignments
+## if you change directry, change app: volumes @ docker-compoose.yml
+## eg. mkdir /hoge/fuga, /data/assignments:/data/assignments -> /hoge/fuga:/data/assignments
+
+# 3. Compose
 docker-compose up -d
 
-# 3. Access
+# 4. Access
 # Visit to http://localhost:80 using your own browser.
 
-# 4. Exit
+# 5. Exit
 docker-compose down  # or, docker-compose kill
 ```
+After accessing with a browser, modify the path of Tester and Assignments from the Settings tab as follows.
+- Tester pass: `/data/tester`
+- Assignment path: `/data/assignments`
+
+If you get a runtime error when submitting your code, uncheck Sandboxing and Shield from the Settings tab.
 
 ## References
 * Original: https://github.com/mjnaderi/Sharif-Judge
 * Docker-image: https://hub.docker.com/r/liuyang1204/docker-sharif-judge/
-* (Qiita, JP) http://qiita.com/metaVariable/items/9a9923b279c52823ccca
 
 
 The following from here is the original README.  
